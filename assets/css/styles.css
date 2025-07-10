@@ -724,8 +724,11 @@
 }
 
 @media (max-width: 767.98px) {
-
-
+    .section-six .list-box {
+        width: 90%;
+        align-items: center;
+        margin-right: 0;
+    }
     .section-six .list-box .item p::before {
         content: '';
     }
